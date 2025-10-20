@@ -1,0 +1,62 @@
+Research
+========
+
+.. card:: Project 1
+
+  .. grid:: 2
+
+    .. grid-item::
+      :columns: 12 4 4 4
+
+      .. image:: _static/project1.png
+        :alt: Project 1
+        :width: 30%
+
+    .. grid-item::
+      :columns: 12 8 8 8
+
+      This project develops new statistical distributions to better model
+      complex reliability and medical data. By extending classical lifetime
+      models, it improves flexibility in capturing skewness, kurtosis, and tail
+      behavior. The research integrates theoretical derivation with
+      computational implementation, enhancing predictive accuracy and
+      interpretability in engineering reliability and biomedical survival
+      analysis. :doc:`More details <project1>`
+
+.. card:: Project 2
+
+  .. grid:: 2
+
+    .. grid-item::
+      :columns: 12 4 4 4
+
+      .. image:: images/project2.png
+        :alt: Project 2
+        :width: 30%
+
+    .. grid-item::
+      :columns: 12 8 8 8
+
+      This project introduces and explores the **Kumaraswamy Exponentiated Odds
+      Ratio (KEOR) family** of probability distributions, a flexible
+      statistical framework that unifies and extends several well-known
+      lifetime models. The KEOR family leverages the Kumaraswamy generator to
+      provide enhanced control over distributional shape parameters, enabling
+      more precise modeling of skewed, heavy-tailed, and complex real-world
+      data. :doc:`More details<project2>`
+
+.. card:: Project 3
+
+  .. grid:: 2
+
+    .. grid-item::
+      :columns: 12 4 4 4
+
+      .. image:: images/project2.png
+        :alt: Project 2
+        :width: 30%
+
+    .. grid-item::
+      :columns: 12 8 8 8
+
+      :doc:`More details<project3>`

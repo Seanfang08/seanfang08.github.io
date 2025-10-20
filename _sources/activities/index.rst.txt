@@ -1,0 +1,10 @@
+Activities
+==========
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Activities
+
+  clubs
+  sports
+  music

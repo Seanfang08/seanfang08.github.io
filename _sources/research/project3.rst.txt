@@ -1,0 +1,17 @@
+:orphan:
+
+Data-driven Analysis of Chemical Short-range Order-Property Correlations in Multi-principal Element Alloys
+==============================================================================================================
+
+Overview
+--------
+
+Key Results
+-----------
+
+
+Presentations
+-------------
++ **S. Fang**, Data-driven Analysis of Chemical Short-range Order-Property
+  Correlations in Multi-principal Element Alloys, Contributed Talk, Joint
+  Mathematics Meetings, Seattle, WA., Jan. 2025

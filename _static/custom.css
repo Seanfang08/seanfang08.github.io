@@ -1,0 +1,86 @@
+
+html {
+    --pst-font-size-base: 17px;
+}
+
+body {
+    background: #f8f9fa;
+    color: #222;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.document {
+    width: 100%;
+    max-width: 1400px;
+    margin: 60px auto 0 auto;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 48px 40px 32px 40px;
+    box-sizing: border-box;
+}
+
+
+/* Navigation Bar */
+.navbar, .wy-nav-top, .bd-header {
+    background: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 32px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+/* Make the header container span the full width and space items between
+     so the logo stays left and nav items are pushed to the far right. */
+.bd-header .container,
+.wy-nav-top .container,
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222 !important;
+    letter-spacing: 1px;
+    background: transparent !important;
+    display: inline;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0;
+    margin-right: 2em;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.navbar-brand:hover {
+    color: #2563eb !important;
+}
+.navbar-nav {
+    margin-left: 0;
+    display: flex;
+    gap: 1.5em;
+}
+.navbar-nav .nav-link {
+    color: #222 !important;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+}
+.navbar-nav .nav-link:hover {
+    color: #2563eb !important;
+    background: #f0f4ff;
+}
+
+.bd-main .bd-content .bd-article-container {
+  max-width: 100%;  /* default is 60em */
+}

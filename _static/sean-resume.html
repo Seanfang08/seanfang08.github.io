@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Fang | Resume</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic contact symbols -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom styles for the CV elements */
+        :root {
+            --primary-color: #00A3E0; /* Pantone 2925 C (Light Blue Accent) */
+            --secondary-color: #6ECFF6; /* Pantone 2905 C (Lighter Blue Highlight) */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light background (light blueish gray) */
+            color: #1f2937; /* Dark text (gray-800) */
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.75rem; /* text-2xl */
+            font-weight: 700; /* font-bold */
+            color: var(--primary-color);
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 80px; /* Short blue line */
+            background-color: var(--primary-color);
+            border-radius: 9999px;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -13px;
+            top: 0.25rem; /* Adjusted for better alignment with text */
+            width: 10px;
+            height: 10px;
+            background-color: var(--primary-color);
+            border: 2px solid white; /* Border for visibility against white background */
+            border-radius: 9999px;
+            z-index: 10;
+        }
+        /* Style for the publication title (to mimic italic/small font) */
+        .publication-title {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #4b5563; /* gray-600 */
+        }
+
+        /* Custom style for the list bullets to match the LaTeX style */
+        .list-disc-custom li::marker {
+            color: var(--primary-color);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#00A3E0', // Pantone 2925 C
+                        'secondary-blue': '#6ECFF6', // Pantone 2905 C
+                        'light-bg': '#f0f4f8',
+                        'card-bg': '#ffffff', // White card
+                        'main-text': '#1f2937', // Gray-800
+                    },
+                }
+            }
+        }
+
+        // Initialize Lucide Icons on load
+        window.onload = function() {
+            lucide.createIcons();
+        };
+    </script>
+</head>
+
+<body class="p-4 sm:p-8 md:p-12 lg:p-16 min-h-screen">
+
+    <main class="max-w-4xl mx-auto p-6 bg-card-bg shadow-lg border border-gray-100 rounded-xl">
+
+        <!-- Header Section -->
+        <header class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-gray-300 pb-6 mb-8">
+            <div class="space-y-1">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-main-text">SEAN FANG</h1>
+                <!-- Empty space for layout balance after removing secondary title -->
+                <p class="text-xl text-primary-blue font-medium h-6"></p>
+            </div>
+            <div class="mt-4 sm:mt-0 space-y-2 text-right text-sm text-gray-700">
+                <div class="flex items-center justify-end">
+                    <i data-lucide="map-pin" class="w-4 h-4 mr-2 text-primary-blue"></i>
+                    <span>Pensacola, FL</span>
+                </div>
+                <div class="flex items-center justify-end">
+                    <i data-lucide="mail" class="w-4 h-4 mr-2 text-primary-blue"></i>
+                    <a href="mailto:seanfang08@gmail.com" class="hover:text-primary-blue transition">seanfang08@gmail.com</a>
+                </div>
+                <div class="flex items-center justify-end">
+                    <i data-lucide="phone" class="w-4 h-4 mr-2 text-primary-blue"></i>
+                    <span>+1 (850) 844-3310</span>
+                </div>
+                <div class="flex items-center justify-end">
+                    <i data-lucide="globe" class="w-4 h-4 mr-2 text-primary-blue"></i>
+                    <a href="http://seanfang08.github.io" target="_blank" class="hover:text-primary-blue transition">seanfang08.github.io</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Education Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Education</h2>
+            <!-- This section already uses the consistent timeline style -->
+            <div class="relative pl-6 border-l border-gray-300">
+                <div class="mb-4">
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">The International Baccalaureate (IB) Diploma Programme</h3>
+                        <span class="text-sm text-gray-600 font-medium">2022—Present</span>
+                    </div>
+                    <p class="text-primary-blue font-medium">Pensacola High School</p>
+                    <p class="text-sm text-gray-500 mb-2">Pensacola, FL, USA</p>
+                    <ul class="list-disc list-disc-custom ml-6 text-main-text space-y-1 text-sm">
+                        <li>Weighted GPA: 5.03 | Unweighted GPA: 3.98/4.0</li>
+                        <li>SAT: 1550; ACT: 36</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Honors Section - NOW ALIGNED -->
+        <section class="mb-8">
+            <h2 class="section-title">Honors</h2>
+            <div class="relative pl-6 border-l border-gray-300 space-y-4">
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue">2021, 2022:</span>
+                        <span class="ml-2 font-semibold">MathCounts Competition,</span> first place (Northwest Florida region)
+                    </div>
+                </div>
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue">2022, 2023:</span>
+                        <span class="ml-2 font-semibold">American Math Competition (AMC) 10,</span> first place (regional)
+                    </div>
+                </div>
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue">2024:</span>
+                        <span class="ml-2 font-semibold">American Math Competition (AMC) 12,</span> first place (regional), AIME qualifier
+                    </div>
+                </div>
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue">2024–2025:</span>
+                        <span class="ml-2 font-semibold">The Commissioner's Academic Challenge Team</span> – Escambia County All-Star
+                    </div>
+                </div>
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue">2025:</span>
+                        <span class="ml-2 font-semibold">Florida Sunshine Scholar</span> – Top STEM student statewide
+                    </div>
+                </div>
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue">2025:</span>
+                        <span class="ml-2 font-semibold">Semifinalist, National Merit® Scholarship Program</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Experience Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Research Experience</h2>
+            <div class="space-y-6">
+                <!-- Research Assistant Header -->
+                <div class="text-main-text font-bold">
+                    Research Assistant, Mathematical Intelligence and Neural Dynamics (MIND) Lab, University of West Florida (UWF).
+                    <span class="text-gray-600 font-normal">Supervisor: Dr. Shusen Pu.</span>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="relative pl-6 border-l border-gray-300">
+                    <p class="text-sm font-semibold text-primary-blue mb-1">Summer 2024</p>
+                    <ul class="list-disc list-disc-custom ml-6 text-main-text space-y-1 text-sm">
+                        <li>Co-authored a peer-reviewed study (\textit{Mathematica Slovaca}, 2025) proposing the RB-TL-EHL-G statistical distribution for reliability and biomedical data modeling.</li>
+                        <li>Visualized probability density, hazard rate, and survival curves using Matplotlib and ggplot2.</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="relative pl-6 border-l border-gray-300">
+                    <p class="text-sm font-semibold text-primary-blue mb-1">Fall 2024—Present</p>
+                    <ul class="list-disc list-disc-custom ml-6 text-main-text space-y-1 text-sm">
+                        <li>Used machine learning algorithms to discover short-range orders (SRO) in medium entropy alloys (MEAs).</li>
+                        <li>Developed the Python codes to predict the SRO in alloys by modeling effective pair interactions.</li>
+                        <li>Analyzed atomic interactions and chemical motifs within alloys.</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="relative pl-6 border-l border-gray-300">
+                    <p class="text-sm font-semibold text-primary-blue mb-1">Summer 2025</p>
+                    <ul class="list-disc list-disc-custom ml-6 text-main-text space-y-1 text-sm">
+                        <li>Formulated the mathematical structure of the newly proposed Kumaraswamy Exponentiated Odds Ratio (K-EOR) distribution family.</li>
+                        <li>Contributed to manuscript writing and technical proofreading for all major sections, ensuring mathematical rigor and clarity.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications and National Presentations Section - NOW ALIGNED -->
+        <section class="mb-8">
+            <h2 class="section-title">Publications and National Presentations</h2>
+            <div class="relative pl-6 border-l border-gray-300 space-y-4">
+                <!-- Publication 1 -->
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue mr-2">2025:</span>
+                        B. Oluyede, L. Schröder, <strong class="text-main-text">S. Fang</strong>, A. Cohen, T. Moakofi, Y. Zhang, and S. Pu. Advancing Reliability and Medical Data Analysis Through Novel Statistical Distribution Exploration. <span class="publication-title">Mathematica Slovaca, 75(1):225--242.</span>
+                    </div>
+                </div>
+                <!-- Publication 2 -->
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue mr-2">2025:</span>
+                        <strong class="text-main-text">S. Fang</strong>, C. Fang and S. Pu. The Kumaraswamy Exponentiated Odds Ratio Family: Mathematical Insights and Practical Applications. <span class="publication-title">In press.</span>
+                    </div>
+                </div>
+                <!-- Contributed Talk -->
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue mr-2">Jan 9, 2025:</span>
+                        <strong class="text-main-text">S. Fang</strong>. Data-driven Analysis of Chemical Short-range Order-Property Correlations in Multi-principal Element Alloys. <span class="publication-title">Contributed Talk, Joint Mathematics Meetings, Seattle, WA.</span>
+                    </div>
+                </div>
+                <!-- Poster Presentation -->
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="text-gray-700">
+                        <span class="font-bold text-primary-blue mr-2">Aug 9, 2025:</span>
+                        <strong class="text-main-text">S. Fang</strong>, C. Fang, and S. Pu. The Kumaraswamy Exponentiated Odds Ratio Family: Mathematical Insights and Practical Applications. <span class="publication-title">Poster Presentation, Mathematical Association of America MathFest, Sacramento, CA.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership and Activities Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Leadership and Activities</h2>
+            <div class="relative pl-6 border-l border-gray-300 space-y-6">
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">State Team Member, Academic Team</h3>
+                        <span class="text-sm text-gray-600 font-medium">2022—Present</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">A trivia-focused club that competes in the National Academic Quizbowl Tournament (NAQT). Escambia County All Star Team member, qualified for national competition (336 teams), semifinals in state competition (34 teams) (Spring 24).</p>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Vice President, Science Olympiad</h3>
+                        <span class="text-sm text-gray-600 font-medium">2022—Present</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">Competes in Science Olympiad events. Placed in regional competitions in Cryptography, Disease Detectives, and Anatomy. Organized two fundraiser events per year.</p>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Vice President, Mu Alpha Theta</h3>
+                        <span class="text-sm text-gray-600 font-medium">2024—Present</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">Led the group to prepare and organize Pi Day and AMC 10/12; tutored 20 teammates; won 1st locally in AMC 10/12 (22-24); AIME qualifier (24).</p>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Summer School Programs at UWF</h3>
+                        <span class="text-sm text-gray-600 font-medium">2024—2025</span>
+                    </div>
+                    <ul class="list-disc list-disc-custom ml-6 text-gray-700 space-y-1 text-sm mt-1">
+                        <li>STA 4031 Math/Stat I, A (Summer 2024)</li>
+                        <li>MAP 2023 Differential Equations, A (Summer 2025)</li>
+                        <li>MAS 3105 Linear Algebra, A (Summer 2025)</li>
+                    </ul>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Competitor, Member, Engineering Club</h3>
+                        <span class="text-sm text-gray-600 font-medium">2022—2024</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">Built BEST Robotics bot; competed at state/national levels; responsible for robot design, testing, and operation.</p>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Co-organizor/Tutoring, STEM Outreach, CAS (Creativity Activity Service)</h3>
+                        <span class="text-sm text-gray-600 font-medium">2024—Present</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">Co-organized STEM projects, created resources, provided tutoring, and promoted STEM to younger students.</p>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Volunteer</h3>
+                        <span class="text-sm text-gray-600 font-medium">2023 - 2024</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">Volunteered at the MESS Hall (set up/maintain exhibits, hosted two STEM events). Volunteered at the Pensacola Art Festival.</p>
+                </div>
+
+                <div class="relative">
+                    <span class="timeline-dot"></span>
+                    <div class="flex justify-between items-baseline flex-wrap">
+                        <h3 class="text-lg font-semibold text-main-text">Violin Solo Performance at UWF</h3>
+                        <span class="text-sm text-gray-600 font-medium">2022—2023</span>
+                    </div>
+                    <p class="text-gray-700 text-sm mt-1">Solo performances in November 2022 and May 2023.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                <div class="bg-white p-3 rounded-lg border border-secondary-blue/50">
+                    <p class="font-semibold text-primary-blue mb-1">Music</p>
+                    <p class="text-sm">
+                        <span class="font-medium text-main-text">Piano:</span> 10+ years of training and performance experience.
+                    </p>
+                    <p class="text-sm">
+                        <span class="font-medium text-main-text">Violin:</span> 8+ years of training and ensemble participation (Supervisor: Dr. Leonid Yanovskiy).
+                    </p>
+                </div>
+                <div class="bg-white p-3 rounded-lg border border-secondary-blue/50">
+                    <p class="font-semibold text-primary-blue mb-1">Technical/Computing</p>
+                    <p class="text-sm">
+                        <span class="font-medium text-main-text">Languages & Tools:</span> Python (scikit-learn, numpy, pandas, Matplotlib), R, Matlab, LaTeX.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Script to initialize Lucide icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

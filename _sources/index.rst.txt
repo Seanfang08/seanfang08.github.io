@@ -1,0 +1,68 @@
+.. raw:: html
+
+    <div style="height: 0; visibility: hidden; overflow: hidden;">
+
+My Portfolio
+============
+
+.. raw:: html
+
+    </div>
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents:
+    :hidden:
+
+    research/index
+    activities/index
+
+.. grid:: 1 2 2 2
+
+   .. grid-item-card::
+      :columns: 12 8 8 8
+
+      Sean Fang
+      ---------
+
+      I’m Sean Fang, an IB senior who likes starting with “I don’t know” and
+      ending with a model that explains something real. I am currently also
+      a student research assistant at the Mathematical Intelligence and
+      Neural Dynamics (MIND) Lab at the University of West Florida,
+      supervised by Dr. Shusen Pu. I play piano, violin, and I like playing
+      tennis and swimming. I love drawing and I like playing games, such as
+      Minecraft. This site is my notebook: concise ideas, reproducible code,
+      and the questions I’m still chasing.
+
+         .. raw:: html
+
+          <ul>
+            <li><a href="_static/sean-resume.html" target="_blank">View Resume (HTML)</a></li>
+            <li><a href="_static/sean-resume.pdf" target="_blank">Download PDF</a></li>
+            <li><a href="https://github.com/seanfang08" target="_blank">GitHub</a></li>
+          </ul>
+
+   .. grid-item-card::
+      :columns: 12 4 4 4
+
+      .. image:: _static/sean-profile.jpeg
+         :alt: Profile Picture
+         :width: 100%
+
+
+.. grid:: 1 2 2 2
+
+   .. grid-item::
+      :columns: 12 6 6 6
+
+      .. card:: Research
+
+         Highlights and short descriptions of my projects. :doc:`Explore research<research/index>`
+
+   .. grid-item::
+      :columns: 12 6 6 6
+
+      .. card:: Activities
+
+         Clubs, sports, music, and other extracurriculars. :doc:`View activities<activities/index>`
+

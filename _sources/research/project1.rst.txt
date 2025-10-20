@@ -1,0 +1,37 @@
+:orphan:
+
+Advancing Reliability and Medical Data Analysis Through Novel Statistical Distribution Exploration
+========================================================================================================
+
+Summary
+-------
+This research focuses on enhancing the modeling accuracy and interpretability
+of reliability and medical data through the formulation and analysis of novel
+statistical distributions. The project introduces new families of probability
+distributions designed to capture complex, real-world variability observed in
+engineering systems and biomedical studies. These models address limitations of
+classical distributions by incorporating additional parameters for greater
+flexibility in skewness, kurtosis, and tail behavior.
+
+Key Results
+-----------
+- Derived several new flexible lifetime distributions exhibiting superior fit
+  to biomedical and reliability datasets compared to traditional Weibull and
+  log-normal models.
+- Demonstrated practical estimation algorithms enabling reproducible
+  computational experiments in Python and R.
+- Identified improved reliability measures and survival functions with
+  potential clinical interpretation benefits.
+
+The project contributes to both theoretical and applied statistics by enriching
+the toolbox available for lifetime data modeling. In medical contexts, these
+models enhance the ability to predict patient outcomes and treatment
+reliability. In engineering reliability, they enable better risk assessment and
+system optimization.
+
+Publications and Presentations
+------------------------------
++ **S. Fang**, A. Cohen, T. Moakofi, Y. Zhang, and S. Pu. Advancing Reliability
+  and Medical Data Analysis Through Novel Statistical Distribution Exploration.
+  *Mathematica Slovaca*, 75(1):225--242.
+
