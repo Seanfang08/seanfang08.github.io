@@ -37,7 +37,7 @@ My Portfolio
          .. raw:: html
 
           <ul>
-            <li><a href="_static/sean-resume.html" target="_blank">View Resume (HTML)</a></li>
+            <li><a href="_static/sean-resume-2col.html" target="_blank">View Resume (HTML)</a></li>
             <li><a href="_static/sean-resume.pdf" target="_blank">Download PDF</a></li>
             <li><a href="https://github.com/seanfang08" target="_blank">GitHub</a></li>
           </ul>
