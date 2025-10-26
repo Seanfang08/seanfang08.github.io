@@ -44,3 +44,43 @@ Publications and Presentations
   Family: Mathematical Insights and Practical Applications. Poster
   Presentation, Mathematical Association of America MathFest, Sacramento, CA.
   USA, Aug. 2025.
+
+Research Story
+--------------
+In this project I contributed as a high-school student by focusing on practical,
+foundational work. I learned the core ideas behind the KEOR family—how the
+Kumaraswamy generator shapes distributions and why odds-ratio constructions can
+capture skewness and tail behavior. My day-to-day tasks centered on running R
+simulations to reproduce fits, checking diagnostics, and documenting what we
+observed across datasets, while senior collaborators developed the theoretical
+derivations.
+
+This role taught me how to connect definitions to evidence: set up experiments
+carefully, compare models with clear criteria (AIC/BIC, residual patterns), and
+explain results in plain language. The experience strengthened my understanding
+of lifetime modeling and gave me confidence applying statistical tools to
+real-world questions.
+
+Figures
+-------
+
+.. Suggested Figures (to add later)
+.. --------------------------------
+.. - Shape comparison: KEOR variants vs a baseline distribution on a sample
+..   dataset.
+.. - Hazard/survival behavior: example curves illustrating flexibility.
+.. - Workflow: data → KEOR model family → estimation/diagnostics → conclusions.
+
+.. Placeholders for future images (no files added yet):
+
+.. .. figure:: ../_static/project2-shape-comparison.png
+..    :alt: KEOR shape comparison placeholder
+..    :width: 70%
+
+..    KEOR shape comparison (placeholder).
+
+.. .. figure:: ../_static/project2-hazard-survival.png
+..    :alt: Hazard and survival curves placeholder
+..    :width: 70%
+
+..    Hazard and survival curves (placeholder).

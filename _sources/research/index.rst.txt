@@ -1,7 +1,7 @@
 Research
 ========
 
-.. card:: Project 1
+.. card:: Flexible Lifetime Distributions
 
   .. grid:: 2
 
@@ -15,15 +15,12 @@ Research
     .. grid-item::
       :columns: 12 8 8 8
 
-      This project develops new statistical distributions to better model
-      complex reliability and medical data. By extending classical lifetime
-      models, it improves flexibility in capturing skewness, kurtosis, and tail
-      behavior. The research integrates theoretical derivation with
-      computational implementation, enhancing predictive accuracy and
-      interpretability in engineering reliability and biomedical survival
-      analysis. :doc:`More details <project1>`
+      Develops flexible statistical distributions for reliability and medical
+      data. Extends classical lifetime models to better capture skewness,
+      tails, and shape changes, improving fit and interpretability in survival
+      and reliability analysis. :doc:`More details <project1>`
 
-.. card:: Project 2
+.. card:: KEOR: Flexible Lifetime Modeling
 
   .. grid:: 2
 
@@ -37,15 +34,12 @@ Research
     .. grid-item::
       :columns: 12 8 8 8
 
-      This project introduces and explores the **Kumaraswamy Exponentiated Odds
-      Ratio (KEOR) family** of probability distributions, a flexible
-      statistical framework that unifies and extends several well-known
-      lifetime models. The KEOR family leverages the Kumaraswamy generator to
-      provide enhanced control over distributional shape parameters, enabling
-      more precise modeling of skewed, heavy-tailed, and complex real-world
-      data. :doc:`More details<project2>`
+      Explores the **Kumaraswamy Exponentiated Odds Ratio (KEOR) family** for
+      lifetime data. Unifies and extends known models with additional shape
+      control for skewness and tails, yielding stronger fits and clear
+      reliability/biomedical interpretations. :doc:`More details<project2>`
 
-.. card:: Project 3
+.. card:: SRO–Property Correlations in Alloys
 
   .. grid:: 2
 
@@ -59,4 +53,7 @@ Research
     .. grid-item::
       :columns: 12 8 8 8
 
-      :doc:`More details<project3>`
+      Data-driven study of chemical short-range order (SRO) and material
+      properties in multi-principal element alloys. Builds SRO descriptors,
+      compares regularized models, and highlights the most informative
+      features. :doc:`More details<project3>`

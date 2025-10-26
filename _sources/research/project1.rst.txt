@@ -35,3 +35,56 @@ Publications and Presentations
   and Medical Data Analysis Through Novel Statistical Distribution Exploration.
   *Mathematica Slovaca*, 75(1):225--242.
 
+Research Story
+--------------
+I did not begin this project by knowing how to do research. After finishing a
+summer statistics class, I joined Dr. Pu’s lab and discovered what it means to
+apply mathematics to real problems. Our goal was simple to state but challenging
+to execute: build statistical models that better reflect the complexity seen in
+reliability and medical datasets. Classical families like Weibull and
+log-normal are powerful, but we repeatedly encountered skewness, heavy tails,
+and shape changes those models could not capture well.
+
+As a high-school student on the team, my role was focused and realistic: I
+learned the core concepts (lifetime distributions, survival and hazard
+functions) and wrote R code to reproduce simulations and confirm results. I
+spent time running experiments, checking fits, and documenting observations,
+while senior collaborators developed the theoretical families and proofs. This
+division of work helped me contribute meaningfully while building solid
+foundations.
+
+The most rewarding part was seeing how careful iteration—reading source papers,
+coding experiments, and discussing results—translates theory into practical
+insight. Even within a scoped role, I learned a lot about modeling choices,
+diagnostics, and communicating findings. It also changed how I view
+mathematics: not just exercises, but tools that, with persistence and good
+questions, can support better decisions in medicine and engineering.
+
+Figures
+-------
+
+
+.. Suggested Figures (to add later)
+.. --------------------------------
+.. - Distribution shapes comparison: classical vs flexible families on a sample
+..   dataset, highlighting skewness/tails.
+.. - Survival and/or hazard curves: side-by-side fits illustrating improved
+..   behavior in the flexible family.
+.. - Method workflow: diagram showing data → model family → estimation →
+..   validation → interpretation.
+.. - Parameter landscape: likelihood surface or contour plot for two key
+..   parameters.
+
+.. Placeholders for future images (no files added yet):
+
+.. .. figure:: ../_static/project1-distribution-comparison.png
+..    :alt: Distribution comparison placeholder
+..    :width: 70%
+
+..    Distribution comparison (placeholder).
+
+.. .. figure:: ../_static/project1-survival-curves.png
+..    :alt: Survival curves placeholder
+..    :width: 70%
+
+..    Survival curves (placeholder).
