@@ -1,3 +1,58 @@
 Student Clubs
 =============
 
+.. card:: Academic Team (State Team Member)
+
+  .. image:: ../_static/club-academic-team.png
+     :alt: Academic Team
+     :width: 30%
+
+  Trivia-focused competitions requiring broad knowledge across math, science,
+  history, and literature. Escambia County All-Star; NAQT nationals qualifier;
+  state semifinalist. Teamwork, fast recall, and strategy.
+
+.. card:: Science Olympiad (Vice President)
+
+  .. image:: ../_static/club-science-olympiad.png
+     :alt: Science Olympiad
+     :width: 30%
+
+  Competed in STEM knowledge and build events; placed at regionals in
+  Cryptography, Disease Detectives, and Anatomy. Helped organize fundraisers
+  and team prep.
+
+.. card:: Mu Alpha Theta (Vice President)
+
+  .. image:: ../_static/club-mu-alpha-theta.png
+     :alt: Mu Alpha Theta
+     :width: 30%
+
+  Led math team activities including AMC preparation and Pi Day events; tutored
+  teammates. Recognitions include local AMC wins and AIME qualification.
+
+.. card:: Engineering Club
+
+  .. image:: ../_static/club-engineering.png
+     :alt: Engineering Club
+     :width: 30%
+
+  Built a BEST Robotics bot and competed at state/national levels; contributed
+  to design, testing, and operation.
+
+.. card:: STEM Outreach / CAS
+
+  .. image:: ../_static/club-stem-outreach.png
+     :alt: STEM Outreach
+     :width: 30%
+
+  Co-organized STEM projects, created learning resources, provided tutoring,
+  and promoted STEM to younger students.
+
+.. card:: FBLA
+
+  .. image:: ../_static/club-fbla.png
+     :alt: FBLA
+     :width: 30%
+
+  Trained for competitive events; attended leadership conferences; developed
+  business, leadership, and problem-solving skills.

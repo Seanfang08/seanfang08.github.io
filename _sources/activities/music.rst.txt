@@ -1,3 +1,22 @@
 Musical Instruments
 ===================
 
+.. card:: Piano
+
+  .. image:: ../_static/music-piano.png
+     :alt: Piano
+     :width: 30%
+
+  10+ years of training and performance; continuous practice builds
+  discipline, expression, and ensemble awareness.
+
+.. card:: Violin
+
+  .. image:: ../_static/music-violin.png
+     :alt: Violin
+     :width: 30%
+
+  8+ years of ensemble participation and study; developed technique,
+  interpretation, and collaborative performance skills. Solo performances at
+  UWF in November 2022 and May 2023 highlighted tone, phrasing, and stage
+  presence.

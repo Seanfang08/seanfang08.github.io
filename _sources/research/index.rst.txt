@@ -1,7 +1,7 @@
 Research
 ========
 
-.. card:: Flexible Lifetime Distributions
+.. card:: Flexible Statistical Distribution Research
 
   .. grid:: 2
 
@@ -20,7 +20,7 @@ Research
       tails, and shape changes, improving fit and interpretability in survival
       and reliability analysis. :doc:`More details <project1>`
 
-.. card:: KEOR: Flexible Lifetime Modeling
+.. card:: KEOR Family Distribution Research
 
   .. grid:: 2
 
@@ -39,7 +39,7 @@ Research
       control for skewness and tails, yielding stronger fits and clear
       reliability/biomedical interpretations. :doc:`More details<project2>`
 
-.. card:: SRO–Property Correlations in Alloys
+.. card:: Chemical Short-Range Order in Alloy Research
 
   .. grid:: 2
 

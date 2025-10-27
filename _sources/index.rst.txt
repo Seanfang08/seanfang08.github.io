@@ -26,19 +26,17 @@ My Portfolio
       ---------
 
       I’m Sean Fang, an IB senior who likes starting with “I don’t know” and
-      ending with a model that explains something real. I am currently also
-      a student research assistant at the Mathematical Intelligence and
-      Neural Dynamics (MIND) Lab at the University of West Florida,
-      supervised by Dr. Shusen Pu. I play piano, violin, and I like playing
-      tennis and swimming. I love drawing and I like playing games, such as
-      Minecraft. This site is my notebook: concise ideas, reproducible code,
-      and the questions I’m still chasing.
+      ending with a model that explains something real. I am currently also a
+      student research assistant at the Mathematical Intelligence and Neural
+      Dynamics (MIND) Lab at the University of West Florida, supervised by Dr.
+      Shusen Pu. I play piano, violin, and I like playing tennis and swimming.
+      I love drawing and I like playing games, such as Minecraft. This site is
+      my notebook: concise ideas, reproducible code, and the questions I’m
+      still chasing.
 
          .. raw:: html
 
           <ul>
-            <li><a href="research/index.html" target="_blank">Check my research</a></li>
-            <li><a href="activities/index.html" target="_blank">Check my activities</a></li>
             <li><a href="_static/sean-resume-2col.html" target="_blank">View Resume (HTML)</a></li>
             <li><a href="_static/sean-resume.pdf" target="_blank">Download Resume (PDF)</a></li>
             <li><a href="https://github.com/seanfang08" target="_blank">GitHub</a></li>
@@ -59,12 +57,14 @@ My Portfolio
 
       .. card:: Research
 
-         Highlights and short descriptions of my projects. :doc:`Explore research<research/index>`
+         Highlights and short descriptions of my research projects.
+         :doc:`Explore research<research/index>`
 
    .. grid-item::
       :columns: 12 6 6 6
 
       .. card:: Activities
 
-         Clubs, sports, music, and other extracurriculars. :doc:`View activities<activities/index>`
+         Clubs, sports, music, and other extracurricular activities. :doc:`View
+         activities<activities/index>`
 

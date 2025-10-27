@@ -1,2 +1,29 @@
 Sports
 ======
+
+.. card:: Swim Team (USA Swimming)
+
+  .. image:: ../_static/sports-swim.png
+     :alt: Swim Team
+     :width: 30%
+
+  Member of Greater Pensacola Aquatic Club (GPACK). Years of training,
+  competition, and discipline in a supportive, high-performance environment.
+
+.. card:: Future Activities
+
+  .. image:: ../_static/sports-placeholder.png
+     :alt: Sports placeholder
+     :width: 30%
+
+  Space reserved for additional sports and athletics—details to be added with
+  photos.
+
+.. card:: Tennis
+
+  .. image:: ../_static/sports-tennis.png
+     :alt: Tennis
+     :width: 30%
+
+  Practice and match play focusing on footwork, consistency, and strategic
+  points construction; highlights include steady improvement and teamwork.
