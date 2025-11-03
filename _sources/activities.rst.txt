@@ -17,10 +17,10 @@ Activities
   **Engineering Club**
     - Built BEST Robotics bot; contributed to design, testing, and operation.
 
-  **STEM Outreach / CAS**
+  **STEM Outreach / CAS (Creativity Activity Service)**
     - Co-organized projects, created resources, provided tutoring, promoted STEM.
 
-  **FBLA**
+  **Member, Future Business Leaders of America (FBLA)**
     - Trained for competitive events; attended leadership conferences (business, leadership, problem-solving).
 
 .. card:: Music
