@@ -14,12 +14,11 @@ Data-driven Analysis of Chemical Short-range Order-Property Correlations in Mult
 
 
 .. card:: Publications and Presentations
-+ **S. Fang**, Data-driven Analysis of Chemical Short-range Order-Property
-  Correlations in Multi-principal Element Alloys, Contributed Talk, Joint
-  Mathematics Meetings, Seattle, WA., Jan. 2025
+
+  + **S. Fang**, Data-driven Analysis of Chemical Short-range Order-Property
+    Correlations in Multi-principal Element Alloys, Contributed Talk, Joint
+    Mathematics Meetings, Seattle, WA., Jan. 2025
 
 .. card:: Documents and Photos
 
-  - Slides: ../_static/project3-slides.pdf
-  - Figures: ../_static/project3-figures.pdf
-  - Photos: ../_static/project3-photo-1.jpg, ../_static/project3-photo-2.jpg
+  - `Slides <../_static/jmm-alloy-presentation.pdf>`_

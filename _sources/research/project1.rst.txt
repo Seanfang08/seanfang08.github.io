@@ -21,6 +21,4 @@ Advancing Reliability and Medical Data Analysis Through Novel Statistical Distri
 
 .. card:: Documents and Photos
 
-  - Paper (public copy): ../_static/project1-paper.pdf
-  - Slides/figures (if any): ../_static/project1-figures.pdf
-  - Photos: ../_static/project1-photo-1.jpg, ../_static/project1-photo-2.jpg
+  - `Paper (public copy) <../_static/statistical-paper1.pdf>`_

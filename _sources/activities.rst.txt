@@ -1,0 +1,42 @@
+Activities
+==========
+
+.. card:: Clubs
+
+  **Academic Team (State Team Member)**
+    - Trivia-focused competitions across math, science, history, literature.
+    - Escambia County All-Star; NAQT nationals qualifier; state semifinalist.
+
+  **Science Olympiad (Vice President)**
+    - Competed in STEM knowledge/build events; placed at regionals (Cryptography, Disease Detectives, Anatomy).
+    - Helped organize fundraisers and team prep.
+
+  **Mu Alpha Theta (Vice President)**
+    - Led AMC prep and Pi Day; tutored teammates; local AMC wins; AIME qualifier.
+
+  **Engineering Club**
+    - Built BEST Robotics bot; contributed to design, testing, and operation.
+
+  **STEM Outreach / CAS**
+    - Co-organized projects, created resources, provided tutoring, promoted STEM.
+
+  **FBLA**
+    - Trained for competitive events; attended leadership conferences (business, leadership, problem-solving).
+
+.. card:: Music
+
+  **Piano**
+    - 10+ years of training and performance; discipline, expression, ensemble awareness.
+
+  **Violin**
+    - 8+ years of ensemble participation and study; technique, interpretation, collaboration.
+    - Solo performances at UWF (Nov 2022, May 2023).
+
+.. card:: Sports
+
+  **Swim Team (USA Swimming)**
+    - Greater Pensacola Aquatic Club (GPACK); training, competition, discipline.
+
+  **Tennis**
+    - Practice and matches focusing on footwork, consistency, and point construction.
+

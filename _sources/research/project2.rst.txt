@@ -23,6 +23,4 @@ Kumaraswamy Exponentiated Odds Ratio Family: Mathematical Insights and Practical
 
 .. card:: Documents and Photos
 
-  - Paper (public copy): ../_static/project2-paper.pdf
-  - Poster/slides: ../_static/project2-poster.pdf
-  - Photos: ../_static/project2-photo-1.jpg, ../_static/project2-photo-2.jpg
+  - `Poster <../_static/maa-kw-g-presentation.pdf>`_

@@ -15,7 +15,7 @@ My Portfolio
     :hidden:
 
     research/index
-    activities/index
+    activities
 
 .. grid:: 1 2 2 2
 
@@ -66,5 +66,4 @@ My Portfolio
       .. card:: Activities
 
          Clubs, sports, music, and other extracurricular activities. :doc:`View
-         activities<activities/index>`
-
+         activities<activities>`

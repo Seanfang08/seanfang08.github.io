@@ -8,9 +8,9 @@ Research
     .. grid-item::
       :columns: 12 4 4 4
 
-      .. image:: _static/project1.png
+      .. image:: /_static/p1-pdf.png
         :alt: Project 1
-        :width: 30%
+        :width: 80%
 
     .. grid-item::
       :columns: 12 8 8 8
@@ -27,9 +27,9 @@ Research
     .. grid-item::
       :columns: 12 4 4 4
 
-      .. image:: images/project2.png
+      .. image:: /_static/p2-pdf.png
         :alt: Project 2
-        :width: 30%
+        :width: 80%
 
     .. grid-item::
       :columns: 12 8 8 8
@@ -46,9 +46,9 @@ Research
     .. grid-item::
       :columns: 12 4 4 4
 
-      .. image:: images/project2.png
+      .. image:: /_static/alloy.png
         :alt: Project 2
-        :width: 30%
+        :width: 70%
 
     .. grid-item::
       :columns: 12 8 8 8
