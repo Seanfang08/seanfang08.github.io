@@ -107,3 +107,19 @@ html[data-theme="dark"] .sd-card .sd-card-body,
   background-color: #ffffff !important;
   color: #222 !important;
 }
+
+/* Keep blockquotes light, regardless of dark mode */
+blockquote,
+html[data-theme="dark"] blockquote {
+  background-color: #ffffff !important;
+  color: #222 !important;
+  border-left: 4px solid #e5e7eb !important;
+}
+blockquote p { color: #222 !important; }
+
+/* Prevent image dimming in dark mode */
+html[data-theme="dark"] img,
+html[data-theme="dark"] .sd-card img {
+  filter: none !important;
+  opacity: 1 !important;
+}
