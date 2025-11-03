@@ -3,88 +3,24 @@
 Advancing Reliability and Medical Data Analysis Through Novel Statistical Distribution Exploration
 ========================================================================================================
 
-Summary
--------
-This research focuses on enhancing the modeling accuracy and interpretability
-of reliability and medical data through the formulation and analysis of novel
-statistical distributions. The project introduces new families of probability
-distributions designed to capture complex, real-world variability observed in
-engineering systems and biomedical studies. These models address limitations of
-classical distributions by incorporating additional parameters for greater
-flexibility in skewness, kurtosis, and tail behavior.
+.. card:: Story
 
-Key Results
------------
-- Derived several new flexible lifetime distributions exhibiting superior fit
-  to biomedical and reliability datasets compared to traditional Weibull and
-  log-normal models.
-- Demonstrated practical estimation algorithms enabling reproducible
-  computational experiments in Python and R.
-- Identified improved reliability measures and survival functions with
-  potential clinical interpretation benefits.
+  We set out to improve how reliability and medical data are modeled by
+  creating flexible lifetime distributions that capture real-world
+  behaviors—skewness, heavy tails, and changing shapes—that classical
+  families often miss. I helped validate fits and simulations in R/Python and
+  learned how parameter choices influence interpretability and stability. This
+  work showed how careful iteration—reading, coding, and testing—turns ideas
+  into models that can support clearer clinical and engineering decisions.
 
-The project contributes to both theoretical and applied statistics by enriching
-the toolbox available for lifetime data modeling. In medical contexts, these
-models enhance the ability to predict patient outcomes and treatment
-reliability. In engineering reliability, they enable better risk assessment and
-system optimization.
+.. card:: Publications and Presentations
 
-Publications and Presentations
-------------------------------
-+ **S. Fang**, A. Cohen, T. Moakofi, Y. Zhang, and S. Pu. Advancing Reliability
-  and Medical Data Analysis Through Novel Statistical Distribution Exploration.
-  *Mathematica Slovaca*, 75(1):225--242.
+  + **S. Fang**, A. Cohen, T. Moakofi, Y. Zhang, and S. Pu. Advancing
+    Reliability and Medical Data Analysis Through Novel Statistical
+    Distribution Exploration. *Mathematica Slovaca*, 75(1):225--242.
 
-Research Story
---------------
-I did not begin this project by knowing how to do research. After finishing a
-summer statistics class, I joined Dr. Pu’s lab and discovered what it means to
-apply mathematics to real problems. Our goal was simple to state but challenging
-to execute: build statistical models that better reflect the complexity seen in
-reliability and medical datasets. Classical families like Weibull and
-log-normal are powerful, but we repeatedly encountered skewness, heavy tails,
-and shape changes those models could not capture well.
+.. card:: Documents and Photos
 
-As a high-school student on the team, my role was focused and realistic: I
-learned the core concepts (lifetime distributions, survival and hazard
-functions) and wrote R code to reproduce simulations and confirm results. I
-spent time running experiments, checking fits, and documenting observations,
-while senior collaborators developed the theoretical families and proofs. This
-division of work helped me contribute meaningfully while building solid
-foundations.
-
-The most rewarding part was seeing how careful iteration—reading source papers,
-coding experiments, and discussing results—translates theory into practical
-insight. Even within a scoped role, I learned a lot about modeling choices,
-diagnostics, and communicating findings. It also changed how I view
-mathematics: not just exercises, but tools that, with persistence and good
-questions, can support better decisions in medicine and engineering.
-
-Figures
--------
-
-
-.. Suggested Figures (to add later)
-.. --------------------------------
-.. - Distribution shapes comparison: classical vs flexible families on a sample
-..   dataset, highlighting skewness/tails.
-.. - Survival and/or hazard curves: side-by-side fits illustrating improved
-..   behavior in the flexible family.
-.. - Method workflow: diagram showing data → model family → estimation →
-..   validation → interpretation.
-.. - Parameter landscape: likelihood surface or contour plot for two key
-..   parameters.
-
-.. Placeholders for future images (no files added yet):
-
-.. .. figure:: ../_static/project1-distribution-comparison.png
-..    :alt: Distribution comparison placeholder
-..    :width: 70%
-
-..    Distribution comparison (placeholder).
-
-.. .. figure:: ../_static/project1-survival-curves.png
-..    :alt: Survival curves placeholder
-..    :width: 70%
-
-..    Survival curves (placeholder).
+  - Paper (public copy): ../_static/project1-paper.pdf
+  - Slides/figures (if any): ../_static/project1-figures.pdf
+  - Photos: ../_static/project1-photo-1.jpg, ../_static/project1-photo-2.jpg

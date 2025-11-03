@@ -3,61 +3,23 @@
 Data-driven Analysis of Chemical Short-range Order-Property Correlations in Multi-principal Element Alloys
 ==============================================================================================================
 
-Overview
---------
-This study explores how chemical short-range order (SRO) patterns relate to
-material properties in multi-principal element (medium-entropy) alloys using a
-data-driven workflow. We assembled features that capture pair/cluster
-preferences, trained and compared models, and examined which SRO descriptors
-most strongly correlate with measured properties.
+.. card:: Story
 
-Key Results
------------
-- Demonstrated a practical pipeline from SRO feature extraction to predictive
-  modeling and interpretation.
-- Identified influential SRO descriptors associated with property variation in
-  selected alloy systems.
-- Showed that simple, well-regularized models can provide competitive accuracy
-  and clearer interpretability for scientific insight.
+  We investigated how chemical short-range order (SRO) relates to material
+  properties in multi-principal element alloys using a clear, data-driven
+  pipeline. We built SRO descriptors, compared regularized baselines, and
+  focused on interpretability and reproducibility. A small set of descriptors
+  consistently explained most variation, providing a practical baseline for
+  future modeling.
 
 
-Presentations
--------------
+.. card:: Publications and Presentations
 + **S. Fang**, Data-driven Analysis of Chemical Short-range Order-Property
   Correlations in Multi-principal Element Alloys, Contributed Talk, Joint
   Mathematics Meetings, Seattle, WA., Jan. 2025
 
-Research Story
---------------
-This work set out to connect chemical short-range order patterns with measured
-material properties using a clear, data-driven pipeline. We gathered SRO
-descriptors that reflect pair and cluster preferences, standardized the data,
-and compared baseline models with strong regularization. Iterating on features
-and diagnostics (residuals, cross-validation), we focused on interpretability
-and reproducibility as much as raw accuracy.
+.. card:: Documents and Photos
 
-Through successive experiments, a consistent picture emerged: a small subset of
-SRO descriptors carried most of the explanatory power, and simpler models made
-those relationships easier to inspect. The result is a practical baseline for
-future work—where more complex models can build on well-understood features and
-validation checks—while keeping the conclusions accessible to a broad audience.
-
-Figures
--------
-
-.. Suggested Figures (to add later)
-.. --------------------------------
-.. - SRO feature illustration: example descriptors and how they are computed.
-.. - Modeling workflow: data → SRO features → models/diagnostics → insights.
-
-.. .. figure:: ../_static/project3-sro-features.png
-..    :alt: SRO feature illustration placeholder
-..    :width: 70%
-
-..    SRO feature illustration (placeholder).
-
-.. .. figure:: ../_static/project3-model-overview.png
-..    :alt: Modeling workflow placeholder
-..    :width: 70%
-
-..    Modeling workflow (placeholder).
+  - Slides: ../_static/project3-slides.pdf
+  - Figures: ../_static/project3-figures.pdf
+  - Photos: ../_static/project3-photo-1.jpg, ../_static/project3-photo-2.jpg

@@ -3,84 +3,26 @@
 Kumaraswamy Exponentiated Odds Ratio Family: Mathematical Insights and Practical Applications
 ======================================================================================================
 
-Overview
---------
+.. card:: Story
 
-This project introduces and explores the **Kumaraswamy Exponentiated Odds Ratio
-(KEOR) family** of probability distributions, a flexible statistical framework
-that unifies and extends several well-known lifetime models. The KEOR family
-leverages the Kumaraswamy generator to provide enhanced control over
-distributional shape parameters, enabling more precise modeling of skewed,
-heavy-tailed, and complex real-world data.
+  We developed the KEOR family to unify and extend lifetime models with extra
+  shape control for skewness and tails. I contributed by running simulations
+  and checking diagnostics as we compared fits and clarified when KEOR brings
+  clearer interpretation than classic baselines. The process emphasized
+  readable models, careful validation, and practical gains over exhaustive
+  complexity.
 
-The research emphasizes both **mathematical development** and **applied
-performance**, combining theoretical derivation with practical evaluation on
-reliability and biomedical datasets. Analytical properties such as moments,
-hazard functions, and entropy are rigorously established, while computational
-experiments assess the model’s adaptability in various statistical contexts.
+.. card:: Publications and Presentations
 
-Key Results
-------------
+  + **S. Fang**, C. Fang and S. Pu. The Kumaraswamy Exponentiated Odds Ratio
+    Family: Mathematical Insights and Practical Applications. *In press.*
+  + **S. Fang**, C. Fang and S. Pu. The Kumaraswamy Exponentiated Odds Ratio
+    Family: Mathematical Insights and Practical Applications. Poster
+    Presentation, Mathematical Association of America MathFest, Sacramento,
+    CA. USA, Aug. 2025.
 
-- **Generalized Framework:** The KEOR family encompasses numerous existing
-  distributions as special cases, offering a unified approach to model lifetime
-  and reliability data.
-- **Enhanced Flexibility:** Additional shape parameters provide improved
-  control over skewness and kurtosis, leading to better data-fitting
-  performance.
-- **Closed-form Expressions:** Derived mathematical forms for key reliability
-  measures, including hazard and survival functions.
-- **Estimation Techniques:** Maximum likelihood and Bayesian methods were
-  developed for robust parameter inference, supported by simulation studies.
-- **Empirical Validation:** Applied to real datasets from engineering and
-  medical domains, the KEOR models outperformed traditional distributions such
-  as Weibull and Burr in terms of AIC, BIC, and goodness-of-fit metrics.
+.. card:: Documents and Photos
 
-Publications and Presentations
-------------------------------
-+ **S. Fang**, C. Fang and S. Pu. The Kumaraswamy Exponentiated Odds Ratio
-  Family: Mathematical Insights and Practical Applications. *In press.*
-+ **S. Fang**, C. Fang and S. Pu. The Kumaraswamy Exponentiated Odds Ratio
-  Family: Mathematical Insights and Practical Applications. Poster
-  Presentation, Mathematical Association of America MathFest, Sacramento, CA.
-  USA, Aug. 2025.
-
-Research Story
---------------
-In this project I contributed as a high-school student by focusing on practical,
-foundational work. I learned the core ideas behind the KEOR family—how the
-Kumaraswamy generator shapes distributions and why odds-ratio constructions can
-capture skewness and tail behavior. My day-to-day tasks centered on running R
-simulations to reproduce fits, checking diagnostics, and documenting what we
-observed across datasets, while senior collaborators developed the theoretical
-derivations.
-
-This role taught me how to connect definitions to evidence: set up experiments
-carefully, compare models with clear criteria (AIC/BIC, residual patterns), and
-explain results in plain language. The experience strengthened my understanding
-of lifetime modeling and gave me confidence applying statistical tools to
-real-world questions.
-
-Figures
--------
-
-.. Suggested Figures (to add later)
-.. --------------------------------
-.. - Shape comparison: KEOR variants vs a baseline distribution on a sample
-..   dataset.
-.. - Hazard/survival behavior: example curves illustrating flexibility.
-.. - Workflow: data → KEOR model family → estimation/diagnostics → conclusions.
-
-.. Placeholders for future images (no files added yet):
-
-.. .. figure:: ../_static/project2-shape-comparison.png
-..    :alt: KEOR shape comparison placeholder
-..    :width: 70%
-
-..    KEOR shape comparison (placeholder).
-
-.. .. figure:: ../_static/project2-hazard-survival.png
-..    :alt: Hazard and survival curves placeholder
-..    :width: 70%
-
-..    Hazard and survival curves (placeholder).
+  - Paper (public copy): ../_static/project2-paper.pdf
+  - Poster/slides: ../_static/project2-poster.pdf
+  - Photos: ../_static/project2-photo-1.jpg, ../_static/project2-photo-2.jpg

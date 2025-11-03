@@ -84,3 +84,26 @@ body {
 .bd-main .bd-content .bd-article-container {
   max-width: 100%;  /* default is 60em */
 }
+
+/* Prefer light color scheme across the site */
+html {
+  color-scheme: light;
+}
+html[data-theme="dark"] {
+  color-scheme: light;
+}
+
+/* Force light surfaces for sphinx-design cards, even if the theme switches to dark */
+html[data-theme="dark"] .sd-card,
+.sd-card {
+  background-color: #ffffff !important;
+  color: #222 !important;
+  border-color: #e5e7eb !important;
+}
+html[data-theme="dark"] .sd-card .sd-card-header,
+html[data-theme="dark"] .sd-card .sd-card-body,
+.sd-card .sd-card-header,
+.sd-card .sd-card-body {
+  background-color: #ffffff !important;
+  color: #222 !important;
+}
